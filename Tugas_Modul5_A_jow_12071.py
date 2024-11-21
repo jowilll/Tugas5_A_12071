@@ -27,7 +27,7 @@ if os.path.exists(model_path):
         uploaded_files = st.file_uploader("Pilih gambar...", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
 
         with st.sidebar:
-            st.write("## Navigator")x
+            st.write("## Navigator")
             predict_button = st.button("Predict")
 
             if uploaded_files and predict_button:
