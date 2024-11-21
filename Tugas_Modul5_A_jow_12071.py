@@ -4,8 +4,7 @@ import pickle
 from PIL import Image
 import os
 
-model_directory = r'C:\Users\Lenovo\Documents\Kuliah - UAJY\Semester V - 2024-2025\Pembelajaran mesin dan Pembelajaran Mendalam - A\Modul 05\Tugas5_A_12071'
-model_path = os.path.join(model_directory, r'best_model.pkl')
+model_path = best_model.pkl
 
 if os.path.exists(model_path):
     try:
