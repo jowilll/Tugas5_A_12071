@@ -4,7 +4,7 @@ import pickle
 from PIL import Image
 import os
 
-model_path = best_model.pkl
+model_path = 'best_model.pkl'
 
 if os.path.exists(model_path):
     try:
